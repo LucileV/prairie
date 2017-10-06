@@ -1,0 +1,56 @@
+* {
+	padding: 0px;
+	margin: 0px;
+
+
+}
+
+.w3-white{
+    color: #000 !important;
+    background-color: #fff !important;
+    border-radius: 20px;
+    }	
+
+
+.w3-light-grey{
+    color: #000 !important;
+    background-color: #00CFC3 !important;
+
+.w3-light-grey .w3-text-teal {
+    color: orange !important;
+}
+
+.w3-teal, .w3-hover-teal:hover {
+    color: #fff !important;
+    background-color: orange !important;
+}
+
+.avatar {
+	display: block;
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url('http://lucileverrecchia.com/wp-content/uploads/2009/03/lucileorange-150x150.jpg');
+    
+    /* make a square container */
+    width: 150px;
+    height: 150px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+    //border: solid 1px white;
+    float: left;
+ 	margin-right: 20px;
+ 	//box-shadow: 0px 0px 10px 0px rgba(119, 119, 119, 0.6);
+	//-moz-box-shadow: 0px 0px 10px 0px rgba(119, 119, 119, 0.6);
+	//-webkit-box-shadow: 0px 0px 10px 0px rgba(119, 119, 119, 0.6);
+
+}	
+
+.w3-text-teal {
+    color: orange !important;
+}

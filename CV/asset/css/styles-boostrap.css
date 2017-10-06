@@ -1,0 +1,9 @@
+.container {
+	background-image: url(images/fond.jpg);
+	background-size: cover;
+}
+
+h1 {
+	color: orange;
+	font-size: 4em;
+}
