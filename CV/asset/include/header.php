@@ -12,7 +12,7 @@
 	
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title><?php echo isset($_GET['page'])?>dddddd</title>
+	<title><?php echo isset($_GET['page'])?></title>
 </head>
 <body>
 	
