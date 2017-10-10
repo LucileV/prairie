@@ -7,12 +7,15 @@
 
 
 
+
+
 				<div class="masthead clearfix">
 			         <div class="inner">
 					     <nav class="navbar navbar-inverse navbar-fixed-top">
 							  <div class="container-fluid" >
 							    <div class="navbar-header collapse navbar-collapse">
-							      <a class="navbar-brand" href="http://lucileverrecchia.com" target="_blank">Book en ligne</a>
+							      <a class="navbar-brand" href="http://lucileverrecchia.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+ 								  Book en ligne</a>
 							    </div>
 							    <ul class="nav navbar-nav dropdown"">
 							   <li><a href="#competences" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Compétences</a></li>
@@ -21,44 +24,26 @@
 							   <li><a href="#etudes" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Études</a></li>
 							   <li><a href="#loisirs" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Loisirs</a></li>
 							    </ul>
-							    <button type="button" class="btn btn-lg align-right" data-toggle="modal" data-target="#myModal">Contact</button>
+							    <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Contact Be</button>
+							    <button type="button" class="btn btn-lg " data-toggle="modal" data-target="#myModalFr">Contact Fr</button>
+							    <div id="social">
+								    <a class="btn btn-social-icon btn-twitter" href="#" target="_blank">
+									<span class="fa fa-twitter"></span></a>
+									 <a class="btn btn-social-icon btn-twitter" href="#" target="_blank">
+									<span class="fa-x2 fa fa-facebook"></span></a>
+									 <a class="btn btn-social-icon btn-twitter" href="#" target="_blank">
+									<span class="fa fa-linkedin"></span></a>
+								</div>
 							  </div>
+								 
 						</nav>
 			            </div>
+
 		          </div>
-					
 				
-				<!-- Modal -->					
-				  <div class="modal fade" id="myModal" role="dialog">
-				    <div class="modal-dialog modal-md">
-				      <div class="modal-content">
-				        <div class="modal-header">
-				          <button type="button" class="close" data-dismiss="modal">&times;</button>
-				          <h4 class="modal-title">Adresse</h4>
-				        </div>
-				        <div class="modal-body">
-				          <p>31 rue Kessels 1030, Schaerbeek, Belgique.
-					<br>
-					<h2>04 70 39 52 38</h2>
-					<a href="mailto:contact@lucileverrecchia.com">contact@lucileverrecchia.com</a>	 
-					<br>
-					<a href="https://www.linkedin.com/in/lverrecchia" target="_blank">https://www.linkedin.com/in/lverrecchia</a><br>
-					<a href="http://lucileverrecchia.com" target="_blank">http://lucileverrecchia.com</a>
-					
-					</p>
-				        </div>
-				        <div class="modal-footer">
-				          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				        </div>
-				      </div>
-				    </div>
-				  </div>
-				</div>
-				<!-- Fin Modal -->
-	
 
 
-
+				<?php include 'include/modals.php' ?>
 
 
 
@@ -66,9 +51,10 @@
 		            <h1 class="cover-heading font-weight-bol text-center">Lucile Verrecchia</h1>
 		            <div id="slogan">Webdesigner et désormais intégratrice Front-end en devenir</div>
 				 <img src="http://lucileverrecchia.com/wp-content/uploads/2009/03/lucileorange-150x150.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="150" height="150"> 
-		            <blockquote class="lead text-muted alert-info jumbotron">Infographiste Web depuis plusieurs années en entreprise ainsi qu’entant qu’indépendante, j’ai décidé de suivre en 2007 une formation de 12 mois de concepteur réalisateur de produits en ligne à l’école des Gobelins à Paris. 10 ans plus tard, c’est vers le développement web que j’ai souhaité m’orienter afin d’évoluer dans mon métier.</blockquote>
+		            <blockquote class="lead text-muted alert-info jumbotron">Infographiste Web depuis plusieurs années en entreprise ainsi qu’entant qu’indépendante, j’ai décidé de suivre en 2007 une formation de 12 mois de concepteur réalisateur de produits en ligne à l’école des Gobelins à Paris. 10 ans plus tard, c’est vers le développement web que j’ai souhaité m’orienter afin d’évoluer dans les métiers du web toujours en évolution.</blockquote>
 		            <p >
-		              <a href="http://lucileverrecchia.com" class="btn btn-lg btn-secondary btn-default align-center" target="_blank">Visit my Website</a>
+		              <a href="http://lucileverrecchia.com" class="btn btn-lg btn-secondary btn-default align-center" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+ Visit my Website</a>
 		            </p>
 		          </div>
 
@@ -216,14 +202,16 @@
 
 			<section id="formation" class="scroll">
 				<div class="row">
-					<h2>Developpeur Front-end</h2>
+					<h2>Formations récentes en Developpement Web</h2>
 					<div class="col-md-6" align="center">
-						<h1>Becode</h1>Septembre 2017 à avril 2018 <div id="imgformation"><a href="http://www.becode.org/" target="_blank"><img src="images/becode.png" alt="cepegra" class="img-responsive mg-thumbnail"></a></div>
+						<h1>Becode</h1>Septembre 2017 à avril 2018 <div id="imgformation"><a href="http://www.becode.org/" target="_blank"><img src="images/becode.png" alt="cepegra" class="img-responsive mg-thumbnail"></a>Stage de 2 mois prévu en avril 2018.
+						</div>
 						
 					</div>
 					<div class="col-md-6" align="center">
-						<h1>Cepegra</h1>Mai à novembre 2016 
-						<div id="imgformation"><a href="https://formation-cepegra.be/" target="_blank"><img src="images/cepegra.jpg" alt="cepegra" class="img-responsive mg-thumbnail"></a></div>
+						<h1>Cepegra</h1>Mai à Juillet 2016 
+						<div id="imgformation"><a href="https://formation-cepegra.be/" target="_blank"><img src="images/cepegra.jpg" alt="cepegra" class="img-responsive mg-thumbnail"></a>
+						Stage de 1.5 mois chez Havas Media.</div>
 						
 						
 					</div>	
@@ -234,13 +222,74 @@
 
 			<section id="etudes">
 			<h2>Études</h2>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi officiis placeat nesciunt dolores sequi unde, amet alias. Obcaecati optio expedita reiciendis tenetur p
-				ariatur quasi odit facilis atque? Quidem cumque, quibusdam!
+				<div class="div-responsive">
+					<div class="row">
+						<div>
+
+						<table class="table table-sm table-inverse">
+							  <thead>
+							    <tr>
+							      
+							      <th>Années</th>
+							      <th>Écoles ou organismes</th>
+							      <th>Disciplines</th>
+							      <th align="center"><i class="fa fa-external-link" aria-hidden="true"></i></th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <th scope="row">Avril 2016</th>
+							      <td>Bruxelles Formation.</td>
+							      <td>Javascript, Jquery.</td>
+							      <td><a href="http://www.bruxellesformation.be/" target="_blank"><img src="images/brFormation.jpeg" alt="Bruxelles Formation" class="img-responsive img-thumbnail" width="80px" ></a></td>
+							    </tr>
+							    <tr>
+							      <th scope="row">Fév. 2016, 8 jours</th>
+							      <td>
+									École de l’image des Gobelins - Paris. <br>	
+									Stage de 2 mois - Publicis - Carré Noir.
+								  </td>
+							      <td>Concepteur de produit online.</td>
+							      <td><a href="https://www.gobelins.fr/" target="_blank"><img src="images/gobelins.png" alt="Les Gobelins" class="img-responsive img-thumbnail" width="80px" ></a></td>
+							    </tr>
+							    <tr>
+							      <th scope="row">2006 > 07</th>
+							      <td>École Supérieure des Arts Appliqué - MJM - Paris.</td>
+							      <td>Formations P.A.O. et Multimédia.
+							      </td>
+							      <td><a href="http://www.mjm-design.com/" target="_blank"><img src="images/mjm.png" alt="MJM Graphic Design" class="img-responsive img-thumbnail" width="80px" ></a></td>
+							    </tr>
+							    <tr>
+							      <th scope="row">1996 > 99</th>
+							      <td>École de dessin Maximilien Vox - Paris.</td>
+							      <td><b>Équivalence CESS / BAC.</b><br>Brevet de technicien dessinateur maquettiste.</td>
+							      <td>
+							      	<a href="http://www.lyceemaximilienvox.com/" target="_blank"><img src="images/max.jpeg" alt="Lycée Maximilien Vox" class="img-responsive img-thumbnail" width="80px" >
+							      	</a>
+							      </td>
+							    </tr>					
+							  </tbody>
+							</table>
+
+
+						</div>
+					
+					</div>
+				</div>
 			</section>
 
 			<section id="loisirs">
 			<h2>Loisirs</h2>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi officiis placeat nesciunt dolores sequi unde, amet alias. Obcaecati optio expedita reiciendis tenetur pariatur quasi odit facilis atque? Quidem cumque, quibusdam!
+			<ul>
+				<li>Culture : Musées d’art contemporain, expostions de
+				photographies, théatre d’improvisation, slam, festivals et concerts.</li>
+				<li>Loisirs : Voyages et langues, montagne et sports de
+				glisses. Badminton, tennis et natation.</li>
+				<li>Hobby du quotidien : Ma fille de 3 ans.</li>
+			</ul>
+				
+
+
 			</section>
 			
 		

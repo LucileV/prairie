@@ -12,6 +12,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Damion|Dosis|Lobster|Muli" rel="stylesheet"> 
 	
+	
 	<link rel="stylesheet" type="text/css" href="css/styles-boostrap.css">
+	<link rel="stylesheet" href="../librairies/font-awesome/css/font-awesome.min.css">
+
 </head>
 <body  data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+
+	
