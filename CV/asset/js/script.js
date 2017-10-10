@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-		alert('coucou');
 
 	    // au clic sur un lien
 	    $('a.scroll').on('click', function(evt){

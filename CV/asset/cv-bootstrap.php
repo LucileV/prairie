@@ -1,44 +1,74 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/styles-boostrap.css">
-</head>
-<body>
+<?php include 'include/header-bootstrap.php' ?>
 	<div class="container">
-	<div class="-fluid">
+	<div class="container-fluid">
 		 <div class="site-wrapper">
 		      <div class="site-wrapper-inner">
 		        <div class="cover-container">
+
+
+
 				<div class="masthead clearfix">
-			            <div class="inner">
-			              <nav class="navbar navbar-inverse navbar-fixed-top">
-					  <div class="container-fluid" >
-					    <div class="navbar-header">
-					      <a class="navbar-brand" href="http://lucileverrecchia.com" target="_blank">WebSiteName</a>
-					    </div>
-					    <ul class="nav navbar-nav">
-					      <li class="active"><a href="#">Home</a></li>
-					      <li><a href="#">Page 1</a></li>
-					      <li><a href="#">Page 2</a></li>
-					      <li><a href="#">Page 3</a></li>
-					    </ul>
-					    <button class="btn btn-alert navbar-btn">Button</button>
-					  </div>
-					</nav>
+			         <div class="inner">
+					     <nav class="navbar navbar-inverse navbar-fixed-top">
+							  <div class="container-fluid" >
+							    <div class="navbar-header collapse navbar-collapse">
+							      <a class="navbar-brand" href="http://lucileverrecchia.com" target="_blank">Book en ligne</a>
+							    </div>
+							    <ul class="nav navbar-nav dropdown"">
+							   <li><a href="#competences" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Compétences</a></li>
+							   <li><a href="#experience" class="dropdown-toggle js-scrollTo" data-toggle="dropdown " >Expérience</a></li>
+							   <li><a href="#formation" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Formation</a></li>
+							   <li><a href="#etudes" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Études</a></li>
+							   <li><a href="#loisirs" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Loisirs</a></li>
+							    </ul>
+							    <button type="button" class="btn btn-lg align-right" data-toggle="modal" data-target="#myModal">Contact</button>
+							  </div>
+						</nav>
 			            </div>
 		          </div>
+					
+				
+				<!-- Modal -->					
+				  <div class="modal fade" id="myModal" role="dialog">
+				    <div class="modal-dialog modal-md">
+				      <div class="modal-content">
+				        <div class="modal-header">
+				          <button type="button" class="close" data-dismiss="modal">&times;</button>
+				          <h4 class="modal-title">Adresse</h4>
+				        </div>
+				        <div class="modal-body">
+				          <p>31 rue Kessels 1030, Schaerbeek, Belgique.
+					<br>
+					<h2>04 70 39 52 38</h2>
+					<a href="mailto:contact@lucileverrecchia.com">contact@lucileverrecchia.com</a>	 
+					<br>
+					<a href="https://www.linkedin.com/in/lverrecchia" target="_blank">https://www.linkedin.com/in/lverrecchia</a><br>
+					<a href="http://lucileverrecchia.com" target="_blank">http://lucileverrecchia.com</a>
+					
+					</p>
+				        </div>
+				        <div class="modal-footer">
+				          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        </div>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<!-- Fin Modal -->
+	
+
+
+
+
+
 
 		          <div class="inner cover">
-		            <h1 class="cover-heading font-weight-bol">Lucile <span class="text-uppercase ">Verrecchia</span></h1>
-		            <h2>Webdesigner et Intégratrice Front-end en devenir !</h2>
+		            <h1 class="cover-heading font-weight-bol text-center">Lucile Verrecchia</h1>
+		            <div id="slogan">Webdesigner et désormais intégratrice Front-end en devenir</div>
 				 <img src="http://lucileverrecchia.com/wp-content/uploads/2009/03/lucileorange-150x150.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="150" height="150"> 
 		            <blockquote class="lead text-muted alert-info jumbotron">Infographiste Web depuis plusieurs années en entreprise ainsi qu’entant qu’indépendante, j’ai décidé de suivre en 2007 une formation de 12 mois de concepteur réalisateur de produits en ligne à l’école des Gobelins à Paris. 10 ans plus tard, c’est vers le développement web que j’ai souhaité m’orienter afin d’évoluer dans mon métier.</blockquote>
-		            <p class="lead">
-		              <a href="http://lucileverrecchia.com" class="btn btn-lg btn-secondary btn-default " target="_blank">Visit my Website</a>
+		            <p >
+		              <a href="http://lucileverrecchia.com" class="btn btn-lg btn-secondary btn-default align-center" target="_blank">Visit my Website</a>
 		            </p>
 		          </div>
 
@@ -47,87 +77,173 @@
 		      </div>
 
 		</div>
+		<section id="competences">
+			<h2>Compétences</h2>
+			<div class="row">
 
-	 	<div class="row">
-	 		<div class="col-md-4 well well-lg">
-	 			<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius, voluptatibus qui et cum sequi alias consequuntur omnis totam, animi non deserunt doloribus, quam, officia magni ullam quae mollitia aut?
-	 			</h4>
-	 			
-	 			 <div id="title">Photoshop
-	 			 	<div class="progress taille150"> 
-					<div class="progress-bar" role="progressbar" aria-valuenow="70"
-					  aria-valuemin="0" aria-valuemax="100" style="width:70%">
-					    <span class="sr-only ">70% Complete</span>
+		 		<div class="col-md-4 well well-lg">
+		 			<h4>Graphic Design</h4>
+		 			 <div id="title">Photoshop
+		 			 	<div class="progress "> 
+							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+							  aria-valuemin="0" aria-valuemax="100" style="width:90%">
+							    <span class="sr-only">70% Complete</span>
+							</div>
+						</div>
 					</div>
-				</div>
-				</div> 
-				 <div id="title">Illustrator
-	 			 	<div class="progress taille150"> 
-					<div class="progress-bar" role="progressbar" aria-valuenow="70"
-					  aria-valuemin="0" aria-valuemax="100" style="width:70%">
-					    <span class="sr-only">70% Complete</span>
+					<div id="title">Illustrator
+		 			 	<div class="progress "> 
+							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+							  aria-valuemin="0" aria-valuemax="100" style="width:60%">
+							    <span class="sr-only">70% Complete</span>
+							</div>
+						</div>
 					</div>
-				</div>
-				</div>
-				 <div id="title">Photoshop
-	 			 	<div class="progress taille150"> 
-					<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
-					  aria-valuemin="0" aria-valuemax="100" style="width:70%">
-					    <span class="sr-only">70% Complete</span>
+					<div id="title">InDesign
+		 			 	<div class="progress "> 
+							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+							  aria-valuemin="0" aria-valuemax="100" style="width:50%">
+							    <span class="sr-only">70% Complete</span>
+							</div>
+						</div>
 					</div>
-				</div>
-				</div>
-	 		</div>
+		 		</div>		 		
+				
+				<div class="col-md-4 well well-lg">
+		 			<h4>Web Development</h4>
+		 			 <div id="title">Html5 / CSS3
+		 			 	<div class="progress "> 
+							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+							  aria-valuemin="0" aria-valuemax="100" style="width:57%">
+							    <span class="sr-only">70% Complete</span>
+							</div>
+						</div>
+					</div>
+					<div id="title">Jquery / Bootstrap / Javascript
+		 			 	<div class="progress "> 
+							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+							  aria-valuemin="0" aria-valuemax="100" style="width:50%">
+							    <span class="sr-only">70% Complete</span>
+							</div>
+						</div>
+					</div>
+					<div id="title">PHP / MySQL
+		 			 	<div class="progress "> 
+							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+							  aria-valuemin="0" aria-valuemax="100" style="width:45%">
+							    <span class="sr-only">70% Complete</span>
+							</div>
+						</div>
+					</div>
+		 		</div>		 		
 
-	 	</div>
 
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
-		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		    <li data-target="#myCarousel" data-slide-to="1"></li>
-		    <li data-target="#myCarousel" data-slide-to="2"></li>
-		  </ol>
+				<div class="col-md-4 well well-lg">
+		 			<h4>Web Design</h4>
+		 			 <div id="title">Création de templates
+		 			 	<div class="progress "> 
+							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+							  aria-valuemin="0" aria-valuemax="100" style="width:90%">
+							    <span class="sr-only">95% Complete</span>
+							</div>
+						</div>
+					</div>
+					<div id="title">Publicité pour le Web
+		 			 	<div class="progress "> 
+							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+							  aria-valuemin="0" aria-valuemax="100" style="width:80%">
+							    <span class="sr-only">70% Complete</span>
+							</div>
+						</div>
+					</div>
+					<div id="title">CMS Wordpress
+		 			 	<div class="progress "> 
+							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70"
+							  aria-valuemin="0" aria-valuemax="100" style="width:60%">
+							    <span class="sr-only">60% Complete</span>
+							</div>
+						</div>
+					</div>
+		 		</div>		 		
 
-		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner">
-		    <div class="item active">
-		      <img src="la.jpg" alt="Los Angeles">
+		 		
 		    </div>
 
-		    <div class="item">
-		      <img src="chicago.jpg" alt="Chicago">
-		    </div>
 
-		    <div class="item">
-		      <img src="ny.jpg" alt="New York">
-		    </div>
-		  </div>
+	 	</section>
+	 	<section id="experience">
+	 		<div class="table-responsive">
+	 		<h2>Expérience</h2>
+				<table class="table table-striped">
+				    <thead>
+				      <tr>
+				        <th>Années</th>
+				        <th>Nom de l'entreprise</th>
+				        <th>Tâches</th>
+				      </tr>
+				    </thead>
+				    <tbody class="tablemore">
+				      <tr >
+				        <td >2007 > 15</td>
+				        <td class="bold"> Freelance</td>
+				        <td>Web Designer. Réalisations de sites web pour différentes <br> sociétés françaises et canadiennes. <br>
+						Publicité online, mise à jour graphique du site <a href="http://www.lastminute.com" target="_blank">Lastminute.com</a>.</td>
+				      </tr>
+				      <tr>
+				        <td>2011 > 13</td>
+				        <td class="bold"><a href="http://www.collectif-web.fr/" target="_blank"> Collectif-Web</a>  </td>
+				        <td>Pigiste. Rédaction d’articles de presse pour un Webzine féminin.</td>
+				      </tr>
+				      <tr>
+				        <td>2004 > 06</td>
+				        <td class="bold">Addvismédia - Paris</td>
+				        <td>Web Designer. Agence de e-marking. <br>Publicité en ligne. Banners, mini sites. Actuellement <a href="http://www.nextedia.com/" target="_blank">Nextedia</a>.</td>
+				      </tr>
+				       <tr>
+				        <td>2003 > 04</td>
+				        <td>Labotec - Paris</td>
+				        <td>Web Designer. Web Agency.</td>
+				      </tr>
+				       <tr>
+				        <td>2008 > 13</td>
+				        <td><a href="http://www.rhrexpert.com" target:"_blank">RHR Expert</a> - Montréal</td>
+				        <td>Web Master.</td>
+				      </tr>
+				    </tbody>
+				  </table>
+			   </div>
+			</section>
 
-		  <!-- Left and right controls -->
-		  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-		    <span class="glyphicon glyphicon-chevron-left"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-		    <span class="glyphicon glyphicon-chevron-right"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
+			<section id="formation" class="scroll">
+				<div class="row">
+					<h2>Developpeur Front-end</h2>
+					<div class="col-md-6" align="center">
+						<h1>Becode</h1>Septembre 2017 à avril 2018 <div id="imgformation"><a href="http://www.becode.org/" target="_blank"><img src="images/becode.png" alt="cepegra" class="img-responsive mg-thumbnail"></a></div>
+						
+					</div>
+					<div class="col-md-6" align="center">
+						<h1>Cepegra</h1>Mai à novembre 2016 
+						<div id="imgformation"><a href="https://formation-cepegra.be/" target="_blank"><img src="images/cepegra.jpg" alt="cepegra" class="img-responsive mg-thumbnail"></a></div>
+						
+						
+					</div>	
+
+				</div>
+			
+			</section>
+
+			<section id="etudes">
+			<h2>Études</h2>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi officiis placeat nesciunt dolores sequi unde, amet alias. Obcaecati optio expedita reiciendis tenetur p
+				ariatur quasi odit facilis atque? Quidem cumque, quibusdam!
+			</section>
+
+			<section id="loisirs">
+			<h2>Loisirs</h2>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi officiis placeat nesciunt dolores sequi unde, amet alias. Obcaecati optio expedita reiciendis tenetur pariatur quasi odit facilis atque? Quidem cumque, quibusdam!
+			</section>
+			
+		
 		</div>
 	
-	
-	  	<div class="mastfoot">
-	            <div class="inner">
-	              <p>Site réalisée par Lucile Verrecchia <a href="http://lucileverrecchia.com" target="_blank">http://lucileverrecchia.com</a> l 047 39 52 38</p>
-	            </div>
-
-	 	</div>
-	</div>
-		</div>
-	<script type="text/javascript" src="../librairies/sticky/jquery.sticky.js"></script>
-	<script type="text/javascript" src="../librairies/jquery-3.2.1.js"></script>
-	<script src="../librairies/sticky/jquery.sticky.js"></script>
-	<script src="js/script3.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
-</body>
-</html>
+<?php include 'include/footer-bootstrap.php' ?>
