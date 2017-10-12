@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
 	<meta charset="utf-8">
-	<meta desciption="">
+	<meta desciption="CV de Lucile Verrecchia - Web Designer // Web Developer">
 	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -12,6 +15,7 @@
 	
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
 	<title><?php echo isset($_GET['page'])?></title>
 </head>
 <body>

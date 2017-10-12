@@ -35,8 +35,7 @@ $(".progress-bar-info").animate({left: '0px'} , 1000);
 	});
 
 
-
-
+	
 
 });
 

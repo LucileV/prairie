@@ -11,13 +11,13 @@
 
 				<div class="masthead clearfix">
 			         <div class="inner">
-					     <nav class="navbar navbar-inverse navbar-fixed-top">
+					     <nav class="navbar navbar-inverse navbar-fixed-top topnav menu">
 							  <div class="container-fluid" >
 							    <div class="navbar-header collapse navbar-collapse">
 							      <a class="navbar-brand" href="http://lucileverrecchia.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
  								  Book en ligne</a>
 							    </div>
-							    <ul class="nav navbar-nav dropdown"">
+							    <ul class="nav navbar-nav dropdown">
 							   <li><a href="#competences" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Compétences</a></li>
 							   <li><a href="#experience" class="dropdown-toggle js-scrollTo" data-toggle="dropdown " >Expérience</a></li>
 							   <li><a href="#formation" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Formation</a></li>
@@ -27,11 +27,11 @@
 							    <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Contact Be</button>
 							    <button type="button" class="btn btn-lg " data-toggle="modal" data-target="#myModalFr">Contact Fr</button>
 							    <div id="social">
-								    <a class="btn btn-social-icon btn-twitter" href="#" target="_blank">
-									<span class="fa fa-twitter"></span></a>
-									 <a class="btn btn-social-icon btn-twitter" href="#" target="_blank">
-									<span class="fa-x2 fa fa-facebook"></span></a>
-									 <a class="btn btn-social-icon btn-twitter" href="#" target="_blank">
+								    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/lverrecchia" target="_blank">
+									<span class="fa fa-twitter" fa-twitter"></span></a>
+									 <a class="btn btn-social-icon btn-twitter" href="https://www.facebook.com/lucileverrecchiawebdesigner/" target="_blank">
+									<span class="fa fa-facebook"></span></a>
+									 <a class="btn btn-social-icon btn-twitter" href="https://www.linkedin.com/in/lverrecchia/" target="_blank">
 									<span class="fa fa-linkedin"></span></a>
 								</div>
 							  </div>
@@ -46,8 +46,41 @@
 				<?php include 'include/modals.php' ?>
 
 
-
-		          <div class="inner cover">
+		          <div class="inner cover"> 
+				<?php
+    // S'il y des données de postées
+    if ($_SERVER['REQUEST_METHOD']=='POST') {
+     
+      // (1) Code PHP pour traiter l'envoi de l'email
+     
+      // Récupération des variables et sécurisation des données
+      $name    = htmlentities($_POST['name']); // htmlentities() convertit des caractères "spéciaux" en équivalent HTML
+      $email   = htmlentities($_POST['email']);
+      $message = htmlentities($_POST['message']);
+     
+      // Variables concernant l'email
+     
+      $destinataire = 'lverrecchia@yahoo.fr'; // Adresse email du webmaster (à personnaliser)
+      $sujet = 'Titre du message'; // Titre de l'email
+      $contenu = '<html><head><title>Titre du message</title></head><body>';
+      $contenu .= '<p>Bonjour, vous avez reçu un message à partir de votre site web.</p>';
+      $contenu .= '<p><strong>Nom</strong>: '.$name.'</p>';
+      $contenu .= '<p><strong>Email</strong>: '.$email.'</p>';
+      $contenu .= '<p><strong>Message</strong>: '.$message.'</p>';
+      $contenu .= '</body></html>'; // Contenu du message de l'email (en XHTML)
+     
+      // Pour envoyer un email HTML, l'en-tête Content-type doit être défini
+      $headers = 'MIME-Version: 1.0'."\r\n";
+      $headers .= 'Content-type: text/html; charset=iso-8859-1'."\r\n";
+     
+      // Envoyer l'email
+      mail($destinataire, $sujet, $contenu, $headers); // Fonction principale qui envoi l'email
+      echo '<h3>' .($_POST['name']). ', thanks for your message!</h3>'; // Afficher un message pour indiquer que le message a été envoyé
+      // (2) Fin du code pour traiter l'envoi de l'email
+    }
+    ?>
+		
+        
 		            <h1 class="cover-heading font-weight-bol text-center">Lucile Verrecchia</h1>
 		            <div id="slogan">Webdesigner et désormais intégratrice Front-end en devenir</div>
 				 <img src="http://lucileverrecchia.com/wp-content/uploads/2009/03/lucileorange-150x150.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="150" height="150"> 
@@ -63,6 +96,7 @@
 		      </div>
 
 		</div>
+
 		<section id="competences">
 			<h2>Compétences</h2>
 			<div class="row">
@@ -282,7 +316,7 @@
 			<h2>Loisirs</h2>
 			<ul>
 				<li>Culture : Musées d’art contemporain, expostions de
-				photographies, théatre d’improvisation, slam, festivals et concerts.</li>
+				photographies, théatre d’improvisation, festivals et concerts.</li>
 				<li>Loisirs : Voyages et langues, montagne et sports de
 				glisses. Badminton, tennis et natation.</li>
 				<li>Hobby du quotidien : Ma fille de 3 ans.</li>
