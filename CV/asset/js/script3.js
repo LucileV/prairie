@@ -34,18 +34,21 @@ $(".progress-bar-info").animate({left: '0px'} , 1000);
 	    $(this).next().slideToggle();
 	});
 
+//fin form
 
+jQuery(function($){
+    	$( '.menu-btn' ).click(function(){
+    		$('.responsive-menu').addClass('expand')
+    		$('.menu-btn').addClass('btn-none')
+    	})
+    	
+    	 $( '.close-btn' ).click(function(){
+    		$('.responsive-menu').removeClass('expand')
+    		$('.menu-btn').removeClass('btn-none')
+    	})
+  	})
 	
 
 });
-
-
-$(window).scroll(function() {
-		    // If on top fade the bouton out, else fade it in
-		    if ( $(window).scrollTop() == 0 )
-		        $('#returnOnTop').fadeOut();
-		    else
-		        $('#returnOnTop').fadeIn();
-		});
 
 

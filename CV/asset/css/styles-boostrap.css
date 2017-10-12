@@ -227,6 +227,55 @@ h4 {
 
 
 
+nav .navWide .wideDiv {
+	text-align: center;
+}
+
+nav .navWide .wideDiv a {
+	text-decoration: none;
+	display: inline-block;
+	/*Adjust padding to increase/decrease the space between links.*/
+	padding: 0 2em;
+}
+	
+/*Navbar is set to default with the "hamburger" and links on the left
+side of the screen. To move to the right of the screen, simply
+change the three "float: Left;" references to read "float: right;".*/
+nav	.navNarrow i {
+	float: left;
+	cursor: pointer;
+	color: #000;
+}
+
+
+nav {
+  width: 100%;
+  background-color:#65A8A6;
+}
+
+nav ul li {
+  display:inline-block;  
+}
+
+nav a {
+  color:#F8ECC2;
+  display:block;
+  text-decoration: none;
+  padding:20px 30px;
+ }
+
+nav a:hover {
+  background: #E65540;
+}
+
+.menu-trigger {
+  display:none;
+  color:#F8ECC2;
+}
+
+
+
+
 @media only screen and (max-width: 550px){
 
 	h1{
@@ -239,9 +288,15 @@ h4 {
 	     
 	}
 
+	#slogan{
+	     padding-top: 0px;
+	     
+	}
+
 	.container {
     padding-right: 5px;
     padding-left: 5px;
+
 	}
 
 	.btn-lg {
@@ -259,6 +314,29 @@ h4 {
     padding: 10px;
     }
 
-}
 
-	
+
+	//nav
+	#navbar-responsive {
+		display: none;
+	}
+
+
+	.menu-trigger {
+    display:block;
+	 }
+
+
+	 nav ul li {
+	    display:block;
+	    border-top:1px #79896D solid;    
+	  }
+
+	 nav ul {
+	    display:none;
+	  }
+
+
+
+
+}

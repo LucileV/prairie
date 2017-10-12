@@ -16,6 +16,7 @@
 	
 	
 	<link rel="stylesheet" type="text/css" href="css/styles-boostrap.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" href="../librairies/font-awesome/css/font-awesome.min.css">
 
 </head>

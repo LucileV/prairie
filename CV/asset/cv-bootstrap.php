@@ -8,12 +8,16 @@
 
 
 
-
 				<div class="masthead clearfix">
-			         <div class="inner">
-					     <nav class="navbar navbar-inverse navbar-fixed-top topnav menu">
+			         <div class="inner" >
+
+
+
+
+					 <nav class="navbar navbar-inverse navbar-fixed-top topnav">
+					 	<a href="#" class="menu-trigger">Menu</a>
 							  <div class="container-fluid" >
-							    <div class="navbar-header collapse navbar-collapse">
+							    <div class="navbar-header">
 							      <a class="navbar-brand" href="http://lucileverrecchia.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
  								  Book en ligne</a>
 							    </div>
@@ -28,15 +32,17 @@
 							    <button type="button" class="btn btn-lg " data-toggle="modal" data-target="#myModalFr">Contact Fr</button>
 							    <div id="social">
 								    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/lverrecchia" target="_blank">
-									<span class="fa fa-twitter" fa-twitter"></span></a>
-									 <a class="btn btn-social-icon btn-twitter" href="https://www.facebook.com/lucileverrecchiawebdesigner/" target="_blank">
+									<span class="fa fa-twitter"></span></a>
+									 <a class="btn btn-social-icon " href="https://www.facebook.com/lucileverrecchiawebdesigner/" target="_blank">
 									<span class="fa fa-facebook"></span></a>
-									 <a class="btn btn-social-icon btn-twitter" href="https://www.linkedin.com/in/lverrecchia/" target="_blank">
+									 <a class="btn btn-social-icon" href="https://www.linkedin.com/in/lverrecchia/" target="_blank">
 									<span class="fa fa-linkedin"></span></a>
 								</div>
 							  </div>
 								 
 						</nav>
+
+					
 			            </div>
 
 		          </div>

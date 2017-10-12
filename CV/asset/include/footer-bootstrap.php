@@ -17,5 +17,7 @@
  	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	 <script src="js/script3.js"></script>
 	 <script src="js/scroollmouse.js"></script>
+	
+	 <script src="js/menu.js"></script>
 </body>
 </html>
