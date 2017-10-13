@@ -268,7 +268,7 @@ nav a:hover {
   background: #E65540;
 }
 
-.menu-trigger {
+nav .menu-trigger {
   display:none;
   color:#F8ECC2;
 }
@@ -283,7 +283,6 @@ nav a:hover {
 	     color: orange;
 	     
 	}
-	
 
 
 
@@ -401,6 +400,20 @@ nav a:hover {
     float: left;
 	}
 
+	#social  {
+    margin-right: 90px;
+	}
+
+	#langue {
+       margin-left: 6px;
+    	line-height: 2.5em;
+}
+	}
+
+
+	nav .menu-trigger {
+	  display:block;
+	}
 
 }
 

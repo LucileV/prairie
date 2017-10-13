@@ -36,12 +36,15 @@
 						  	
 						  	
 							 <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/lverrecchia" target="_blank">
-							 <span class="fa fa-twitter"></span></a>
+							 <span class="fa fa-twitter" data-toggle="tooltip" title="Twitter"></span></a>
 							  <a class="btn btn-social-icon " href="https://www.facebook.com/lucileverrecchiawebdesigner/" target="_blank">
-							 <span class="fa fa-facebook"></span></a>
+							 <span class="fa fa-facebook" data-toggle="tooltip" title="Facebook"></span></a>
 							  <a class="btn btn-social-icon" href="https://www.linkedin.com/in/lverrecchia/" target="_blank">
-							 <span class="fa fa-linkedin"></span></a>
-							 <a href="Lucile_Verrecchia_CV_en.hmtl"><span class="flag-icon flag-icon-gb flag-icon-squared"></a>
+							 <span class="fa fa-linkedin" data-toggle="tooltip" title="Linkedin"></span></a>
+							 <a href="http://lucileverrecchia.com/wp-content/uploads/2017/06/Lucile-VERRECCHIA-Webdesigner-integratrice-frontend-BE.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true" data-toggle="tooltip" title="Télécharger le CV au format PDF"></i>
+							</a>
+							 <a href="Lucile_Verrecchia_CV_en.html"><span class="flag-icon flag-icon-gb flag-icon-squared"></a>
+							 
 						  </div>
 						
 							</ul>
