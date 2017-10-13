@@ -1,8 +1,8 @@
 
 		  	<div class="mastfoot">
 		            <div class="inner">
-		              <p>Site réalisée par Lucile Verrecchia <a href="http://lucileverrecchia.com" target="_blank">http://lucileverrecchia.com</a> l 0470 39 52 38 l <?php 
-  echo date('Y');
+		              <p>Curriculum vitae réalisé par Lucile Verrecchia <a href="http://lucileverrecchia.com" target="_blank">http://lucileverrecchia.com</a> l <a href="mailto:contact@lucileverrecchia.com">contact@lucileverrecchia.com</a> l GSM : <b>0470 39 52 38 </b>l <?php 
+  echo date("Y-m-d");
 ?></p> 
 		            </div>
 

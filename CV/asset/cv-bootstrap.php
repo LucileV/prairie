@@ -17,10 +17,7 @@
 					 <nav class="navbar navbar-inverse navbar-fixed-top topnav">
 					 	<a href="#" class="menu-trigger">Menu</a>
 							  <div class="container-fluid" >
-							    <div class="navbar-header">
-							      <a class="navbar-brand" href="http://lucileverrecchia.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
- 								  Book en ligne</a>
-							    </div>
+							    
 							    <ul class="nav navbar-nav dropdown">
 							   <li><a href="#competences" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Compétences</a></li>
 							   <li><a href="#experience" class="dropdown-toggle js-scrollTo" data-toggle="dropdown " >Expérience</a></li>
@@ -30,6 +27,12 @@
 							    </ul>
 							    <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Contact Be</button>
 							    <button type="button" class="btn btn-lg " data-toggle="modal" data-target="#myModalFr">Contact Fr</button>
+
+							    <div class="navbar-header">
+							      <a class="navbar-brand" href="http://lucileverrecchia.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
+ 								  Book en ligne</a>
+							    </div>
+							    
 							    <div id="social">
 								    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/lverrecchia" target="_blank">
 									<span class="fa fa-twitter"></span></a>
@@ -92,8 +95,8 @@
 				 <img src="http://lucileverrecchia.com/wp-content/uploads/2009/03/lucileorange-150x150.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="150" height="150"> 
 		            <blockquote class="lead text-muted alert-info jumbotron">Infographiste Web depuis plusieurs années en entreprise ainsi qu’entant qu’indépendante, j’ai décidé de suivre en 2007 une formation de 12 mois de concepteur réalisateur de produits en ligne à l’école des Gobelins à Paris. 10 ans plus tard, c’est vers le développement web que j’ai souhaité m’orienter afin d’évoluer dans les métiers du web toujours en évolution.</blockquote>
 		            <p >
-		              <a href="http://lucileverrecchia.com" class="btn btn-lg btn-secondary btn-default align-center" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i>
- Visit my Website</a>
+		              <a href="http://lucileverrecchia.com" class="btn btn-lg btn-secondary btn-default align-center" target="_blank"> <i class="fa fa-external-link" aria-hidden="true"></i> 
+ 					Visit my Website</a>
 		            </p>
 		          </div>
 
@@ -311,7 +314,6 @@
 							  </tbody>
 							</table>
 
-
 						</div>
 					
 					</div>
@@ -319,20 +321,19 @@
 			</section>
 
 			<section id="loisirs">
-			<h2>Loisirs</h2>
-			<ul>
-				<li>Culture : Musées d’art contemporain, expostions de
-				photographies, théatre d’improvisation, festivals et concerts.</li>
-				<li>Loisirs : Voyages et langues, montagne et sports de
-				glisses. Badminton, tennis et natation.</li>
-				<li>Hobby du quotidien : Ma fille de 3 ans.</li>
-			</ul>
-				
-
-
+				<h2>Loisirs</h2>
+					<ul>
+						<li>Culture : Musées d’art contemporain, expostions de
+						photographies, théatre d’improvisation, festivals et concerts.</li>
+						<li>Loisirs : Voyages et langues, montagne et sports de
+						glisses. Badminton, tennis et natation.</li>
+						<li>Hobby du quotidien : Ma fille de 3 ans.</li>
+					</ul>
 			</section>
 			
 		
 		</div>
+
+
 	
 <?php include 'include/footer-bootstrap.php' ?>

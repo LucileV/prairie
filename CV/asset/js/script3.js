@@ -1,13 +1,34 @@
 $(document).ready(function() {
 		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
 			var page = $(this).attr('href'); // Page cible
-			var speed = 1000; // Durée de l'animation (en ms)
+			var speed = 800; // Durée de l'animation (en ms)
 			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
 			return false;
 		});
 
-$(".progress-bar-info").animate({left: '0px'} , 1000);
-		 
+
+
+setTimeout(function() { 
+	$(".progress-bar-info").animate({left: '0px'} , 3000);
+}, 500);
+
+
+
+
+//button return
+//
+		// Add return on top button
+	    $('body').append('<div id="returnOnTop" title="Retour en haut"></div>');
+	    
+	    // On button click, let's scroll up to top
+	    $('#returnOnTop').click( function() {
+	        $('html,body').animate({scrollTop: 0}, 'slow');
+	    });
+//fin button return
+
+
+
+
 
 
 //form

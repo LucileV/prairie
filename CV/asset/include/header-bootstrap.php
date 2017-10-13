@@ -18,6 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="css/styles-boostrap.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" href="../librairies/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../librairies/flag/css/flag-icon.min.css">
 
 </head>
 <body  data-spy="scroll" data-target="#myScrollspy" data-offset="20">

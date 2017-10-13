@@ -11,10 +11,12 @@
 				          <p>31 rue Kessels 1030, Schaerbeek, Belgique.
 					<br>
 					<h2><i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
- +32 4 70 39 52 38</h2>
+ +32 4 70 39 52 38</h2><i class="fa fa-envelope" aria-hidden="true"></i>
 					<a href="mailto:contact@lucileverrecchia.com">contact@lucileverrecchia.com</a>	 
 					<br>
+					<i class="fa fa-linkedin" aria-hidden="true"></i>
 					<a href="https://www.linkedin.com/in/lverrecchia" target="_blank">https://www.linkedin.com/in/lverrecchia</a><br>
+					<i class="fa fa-external-link" aria-hidden="true"></i>
 					<a href="http://lucileverrecchia.com" target="_blank">http://lucileverrecchia.com</a>
 					
 					</p>
@@ -53,9 +55,12 @@
 					<br>
 					<h2><i class="fa fa-mobile fa-2x " aria-hidden="true"></i>
  					+33 6 58 11 92 58</h2>
+ 					<i class="fa fa-envelope" aria-hidden="true"></i>
 					<a href="mailto:contact@lucileverrecchia.com">contact@lucileverrecchia.com</a>	 
 					<br>
+					<i class="fa fa-linkedin" aria-hidden="true"></i>
 					<a href="https://www.linkedin.com/in/lverrecchia" target="_blank">https://www.linkedin.com/in/lverrecchia</a><br>
+					<i class="fa fa-external-link" aria-hidden="true"></i>
 					<a href="http://lucileverrecchia.com" target="_blank">http://lucileverrecchia.com</a>
 					<br>
 					<button type="button" class="send">Send me an email</button>
