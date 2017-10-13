@@ -3,7 +3,7 @@ $(document).ready(function() {
 			var page = $(this).attr('href'); // Page cible
 			var speed = 800; // Durée de l'animation (en ms)
 			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-			return false;
+			$('nav ul').slideToggle(500);
 		});
 
 
@@ -57,18 +57,7 @@ setTimeout(function() {
 
 //fin form
 
-jQuery(function($){
-    	$( '.menu-btn' ).click(function(){
-    		$('.responsive-menu').addClass('expand')
-    		$('.menu-btn').addClass('btn-none')
-    	})
-    	
-    	 $( '.close-btn' ).click(function(){
-    		$('.responsive-menu').removeClass('expand')
-    		$('.menu-btn').removeClass('btn-none');
-    		return false; 
-    	})
-  	})
+
 	
 
 });

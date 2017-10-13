@@ -24,7 +24,7 @@
 						 	 <li><a href="#formation" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Formation</a></li>
 							 <li><a href="#etudes" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Études</a></li>
 						 	 <li><a href="#loisirs" class="dropdown-toggle js-scrollTo" data-toggle="dropdown" >Loisirs</a></li>
-						  </ul>
+						  
 						  <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Contact Be</button>
 						  <button type="button" class="btn btn-lg " data-toggle="modal" data-target="#myModalFr">Contact Fr</button>
 						  <div class="navbar-header">
@@ -43,7 +43,8 @@
 							 <span class="fa fa-linkedin"></span></a>
 							 <a href="Lucile_Verrecchia_CV_en.hmtl"><span class="flag-icon flag-icon-gb flag-icon-squared"></a>
 						  </div>
-
+						
+							</ul>
 						</div>
 						   
 				    </nav>

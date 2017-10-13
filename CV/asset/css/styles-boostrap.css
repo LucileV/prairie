@@ -348,6 +348,11 @@ nav a:hover {
   
 	}
 
+	.menu-trigger {
+	  display:block;
+}
+
+
 
 }
 
@@ -358,7 +363,7 @@ nav a:hover {
 	
 	.cover-heading  {
 	     font-size: 2.9em;
-	     margin-top: 80px;
+	     margin-top: 0px;
 	     
 	}
 
@@ -369,6 +374,33 @@ nav a:hover {
 	     
 	}
 	
+	.btn-lg {
+
+    width: 100%;
+	}
+
+	.navbar-inverse .navbar-brand {
+    color: #9d9d9d;
+    display: none;
+	}
+	
+
+
+	.navbar-nav > li > a {
+	
+    width: 100%;
+    text-align: left;
+    padding-left: 30px;
+	}
+
+	.topnav a {
+    float: none;
+	}
+
+	#social a {
+    float: left;
+	}
+
 
 }
 
