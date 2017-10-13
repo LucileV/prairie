@@ -65,7 +65,8 @@ jQuery(function($){
     	
     	 $( '.close-btn' ).click(function(){
     		$('.responsive-menu').removeClass('expand')
-    		$('.menu-btn').removeClass('btn-none')
+    		$('.menu-btn').removeClass('btn-none');
+    		return false; 
     	})
   	})
 	
